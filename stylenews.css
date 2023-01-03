@@ -57,36 +57,35 @@ img {
   color: black;
 }
 
-.col-8 {
-    flex: 0 0 auto;
-    width: 70%;
-    border: 2px solid goldenrod;
-    padding: 10px;
-}
-
-.g-0 {
-  padding: 20px;
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-color: black;
-    background-color: beige;
+    background-color: white;
+    padding: 40px;
+    border-style: double;
+    border-color: beige;
+    align-items: center;
+    text-align: center;
+    float: left;
+    width: 50%;
   }
   
-  .card:hover {
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: beige;
   }
 
-  .card-body {
-    flex: 1 1 auto;
-    padding: 1rem 1rem;
+.content {
+    background-color: beige;
+    padding: 40px;
 }
 
-  .container {
-    padding:20px 100px;
-  }
-
-  .container2 {
+.h5 {
     padding: 20px;
-  }
+}

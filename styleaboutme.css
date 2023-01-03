@@ -57,21 +57,10 @@ img {
   color: black;
 }
 
-.col-8 {
-    flex: 0 0 auto;
-    width: 70%;
-    border: 2px solid goldenrod;
-    padding: 10px;
-}
-
-.g-0 {
-  padding: 20px;
-}
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-color: black;
-    background-color: beige;
+    background-color: white;
   }
   
   .card:hover {
@@ -85,8 +74,83 @@ img {
 
   .container {
     padding:20px 100px;
+    line-height: 2;
   }
-
+  
   .container2 {
     padding: 20px;
+  }
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  .row {
+    text-align: center;
+    background-color:beige;
+    padding: 20px;
+  }
+
+  .column2 {
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .more:hover {
+    background-color: black;
   }
